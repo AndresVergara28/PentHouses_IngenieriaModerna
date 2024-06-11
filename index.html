@@ -26,6 +26,18 @@
   </head>
   <body>
     <header class="header_main_container">
+      <svg
+        id="menuicon"
+        class="menu_icon_container bi bi-list"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+        />
+      </svg>
+
       <a class="main_logo_ancla" href="./index.html">
         <img
           class="main_logo"
@@ -34,7 +46,7 @@
         />
       </a>
 
-      <nav class="main_nav_container">
+      <nav class="main_nav_container inactive">
         <ul class="nav_container">
           <li class="nav_item">
             <a class="nav_item_ancla" href="#">Conocenos</a>
@@ -413,6 +425,16 @@
         <a href="#">Terms</a>
       </p>
     </footer>
+
+    <script>
+      const menuButton = document.getElementById("menuicon");
+      const dropDownOptions = document.querySelector(".main_nav_container");
+      menuButton.addEventListener("click", toggleDropDownOptions);
+
+      function toggleDropDownOptions() {
+        dropDownOptions.classList.toggle("inactive");
+      }
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

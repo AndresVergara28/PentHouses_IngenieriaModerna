@@ -1,0 +1,54 @@
+.conocenos_main_container {
+    margin-top: 4rem;
+    height: auto;
+
+
+    .section-title {
+        font-size: $font-size-title;
+        margin-bottom: 20px;
+        text-align: center;
+        color: $color_gray_100;
+    }
+
+    .section-content {
+        margin-bottom: 40px;
+        h2{
+            font-size: $font-size-subtitle;
+            color: $color_gray_100;
+        }
+        p, ul, li{
+            font-size: $font-size-paragraph*1.4;
+            color: $color_gray_50;
+        }
+    }
+
+}
+
+
+
+
+
+.values-list,
+.process-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values-list li,
+.process-list li {
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.contact {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: $link-color;
+    }
+}

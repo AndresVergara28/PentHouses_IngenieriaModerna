@@ -1,0 +1,21 @@
+{
+  "name": "penthouseingenieria-sasscourse",
+  "version": "1.0.0",
+  "description": "Proyecto de la empresa de remodelación de espacios PentHouses Ingenieria moderna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remodeliacón",
+    "ingeniería",
+    "artquitectura",
+    "baños",
+    "multimuebles",
+    "vidrios",
+    "cocina",
+    "puertas"
+  ],
+  "author": "Pipe Vergara <pipevergara28@hotmail.con>",
+  "license": "MIT"
+}

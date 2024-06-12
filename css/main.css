@@ -46,10 +46,11 @@ body {
 
 .header_main_container {
   width: 100%;
+  height: 15vh;
   padding: 1rem;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   border-bottom: 1px solid #6c757d;
   background-color: #000;
   display: flex;
@@ -67,7 +68,7 @@ body {
   order: 2;
 }
 .header_main_container .main_logo_ancla .main_logo {
-  width: 27rem;
+  width: 20rem;
 }
 .header_main_container .main_nav_container .nav_container {
   display: flex;
@@ -92,6 +93,8 @@ body {
 
 @media screen and (max-width: 576px) {
   .header_main_container {
+    width: 100%;
+    height: 12vh;
     justify-content: space-between;
   }
   .header_main_container .menu_icon_container {
@@ -109,7 +112,7 @@ body {
     flex-direction: column;
     background-color: #000;
     position: fixed;
-    top: 15vh;
+    top: 12vh;
     width: 100%;
     left: 0;
   }
@@ -120,7 +123,7 @@ body {
   }
   .header_main_container .main_nav_container .nav_container .nav_item .nav_item_ancla {
     color: #6c757d;
-    font-size: 1.92rem;
+    font-size: 1.68rem;
     line-height: 1.2rem;
     font-weight: bold;
   }
@@ -164,16 +167,44 @@ body {
   text-align: center;
   color: #212529;
 }
-.conocenos_main_container .section-content {
+.conocenos_main_container .mision_historia_container .mision_historia_fila .section-content {
   margin-bottom: 40px;
 }
-.conocenos_main_container .section-content h2 {
+.conocenos_main_container .mision_historia_container .mision_historia_fila .section-content h2 {
   font-size: 2.6rem;
   color: #212529;
 }
-.conocenos_main_container .section-content p, .conocenos_main_container .section-content ul, .conocenos_main_container .section-content li {
+.conocenos_main_container .mision_historia_container .mision_historia_fila .section-content p,
+.conocenos_main_container .mision_historia_container .mision_historia_fila .section-content ul,
+.conocenos_main_container .mision_historia_container .mision_historia_fila .section-content li {
   font-size: 1.68rem;
   color: #6c757d;
+}
+.conocenos_main_container .nuestros_valores_container {
+  padding: 8rem 0;
+  width: 100%;
+  background-color: #f7fce9;
+}
+.conocenos_main_container .nuestros_valores_container .nuestros_valores_title {
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.conocenos_main_container .nuestros_valores_container .valores_items_container {
+  margin-top: 2rem;
+}
+.conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_img {
+  width: 15rem;
+}
+.conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_title {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+.conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_description {
+  text-align: center;
+  font-size: 1.44rem;
 }
 
 .values-list,

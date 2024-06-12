@@ -46,10 +46,10 @@
         />
       </a>
 
-      <nav class="main_nav_container inactive">
+      <nav class="main_nav_container">
         <ul class="nav_container">
           <li class="nav_item">
-            <a class="nav_item_ancla" href="#">Conocenos</a>
+            <a class="nav_item_ancla" href="#conocenos">Conocenos</a>
           </li>
           <li class="nav_item">
             <a class="nav_item_ancla" href="#">Servicios</a>
@@ -62,8 +62,8 @@
     </header>
     <main style="width: 100%">
       <section
-        id="myCarousel"
         class="carousel container slide mb-6"
+        id="myCarousel"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -134,11 +134,6 @@
                   Some representative placeholder content for the third slide of
                   this carousel.
                 </p>
-                <p>
-                  <a class="btn btn-lg btn-secondary" href="#"
-                    >Browse gallery</a
-                  >
-                </p>
               </div>
             </div>
           </div>
@@ -163,11 +158,11 @@
         </button>
       </section>
 
-      <section class="conocenos_main_container container">
+      <section class="conocenos_main_container" id="conocenos">
         <h1 class="section-title">Conócenos</h1>
 
-        <div class="container">
-          <div class="row g-6">
+        <div class="mision_historia_container container">
+          <div class="mision_historia_fila row g-6">
             <div class="section-content col-lg-6 col-sm-12">
               <h2>Nuestra Historia</h2>
               <p>
@@ -189,30 +184,48 @@
                 agradables, sino también duraderos y sostenibles.
               </p>
             </div>
+          </div>
+        </div>
 
-            <div class="section-content col-lg-12 col-md-12 text-center">
-              <h2>Nuestros Valores</h2>
-              <ul class="values-list w-100 container">
-                <li>
-                  <strong>Calidad</strong>: Utilizamos materiales de primera y
-                  técnicas avanzadas para asegurar que cada proyecto sea de la
-                  más alta calidad.
-                </li>
-                <li>
-                  <strong>Innovación</strong>: Nos mantenemos a la vanguardia de
-                  las tendencias y tecnologías en construcción y diseño.
-                </li>
-                <li>
-                  <strong>Compromiso</strong>: Estamos comprometidos con la
-                  satisfacción del cliente, cumpliendo con los plazos y
-                  presupuestos acordados.
-                </li>
-                <li>
-                  <strong>Sostenibilidad</strong>: Promovemos prácticas de
-                  construcción responsables con el medio ambiente.
-                </li>
-              </ul>
-            </div>
+        <div class="nuestros_valores_container section-content text-center">
+          <h2 class="nuestros_valores_title">Nuestros Valores</h2>
+
+          <div class="valores_items_container container">
+            <ul class="valores_items_fila row mx-auto values-list w-100 g-4">
+              <li class="valores_item_container col-lg-3">
+                <img class="item_img" src="./assets/imgs/calidad.png" alt="" />
+                <h3 class="item_title">calidad</h3>
+                <p class="item_description">
+                  Utilizamos materiales de primera y técnicas avanzadas para
+                  asegurar que cada proyecto sea de la más alta calidad.
+                </p>
+              </li>
+              <li class="valores_item_container col-lg-3">
+                <img class="item_img" src="./assets/imgs/compromiso.png" alt="" />
+                <h3 class="item_title">Compromiso</h3>
+                <p class="item_description">
+                  Utilizamos materiales de primera y técnicas avanzadas para
+                  asegurar que cada proyecto sea de la más alta calidad.
+                </p>
+              </li>
+              <li class="valores_item_container col-lg-3">
+                <img class="item_img" src="./assets/imgs/calidad.png" alt="" />
+                <h3 class="item_title">calidad</h3>
+                <p class="item_description">
+                  Utilizamos materiales de primera y técnicas avanzadas para
+                  asegurar que cada proyecto sea de la más alta calidad.
+                </p>
+              </li>
+              <li class="valores_item_container col-lg-3">
+                <img class="item_img" src="./assets/imgs/calidad.png" alt="" />
+                <h3 class="item_title">calidad</h3>
+                <p class="item_description">
+                  Utilizamos materiales de primera y técnicas avanzadas para
+                  asegurar que cada proyecto sea de la más alta calidad.
+                </p>
+              </li>
+           
+            </ul>
           </div>
         </div>
       </section>

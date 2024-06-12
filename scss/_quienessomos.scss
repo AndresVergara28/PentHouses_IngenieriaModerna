@@ -2,7 +2,6 @@
     margin-top: 4rem;
     height: auto;
 
-
     .section-title {
         font-size: $font-size-title;
         margin-bottom: 20px;
@@ -10,16 +9,75 @@
         color: $color_gray_100;
     }
 
-    .section-content {
-        margin-bottom: 40px;
-        h2{
-            font-size: $font-size-subtitle;
-            color: $color_gray_100;
+    .mision_historia_container {
+        .mision_historia_fila {
+
+
+            .section-content {
+                margin-bottom: 40px;
+
+                h2 {
+                    font-size: $font-size-subtitle;
+                    color: $color_gray_100;
+                }
+
+                p,
+                ul,
+                li {
+                    font-size: $font-size-paragraph*1.4;
+                    color: $color_gray_50;
+                }
+            }
+
+
+
         }
-        p, ul, li{
-            font-size: $font-size-paragraph*1.4;
-            color: $color_gray_50;
+
+
+
+
+    }
+
+    .nuestros_valores_container {
+        padding: 8rem 0;
+        width: 100%;
+
+        background-color: $color_green_50;
+
+        .nuestros_valores_title {
+            font-size: $font-size-title;
+            text-transform: uppercase;
+            font-weight: bold ;
         }
+
+        .valores_items_container {
+            margin-top: 2rem;
+            .valores_items_fila {
+                .valores_item_container {
+                    .item_img {
+                        width: 15rem;
+                    }
+
+                    .item_title {
+                        margin-top: 1rem;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: $font-size-subtitle;
+                    }
+
+                    .item_description {
+                        text-align: center;
+                        font-size: $font-size-paragraph*1.2;
+                    }
+                }
+
+
+            }
+
+
+        }
+
+
     }
 
 }

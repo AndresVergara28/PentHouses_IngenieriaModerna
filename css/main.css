@@ -74,21 +74,17 @@ body {
   display: flex;
 }
 .header_main_container .main_nav_container .nav_container .nav_item {
-  border: 1px solid #000;
   padding: 0.8rem 0.4rem;
   border-radius: 4px;
 }
 .header_main_container .main_nav_container .nav_container .nav_item .nav_item_ancla {
-  color: #6c757d;
+  color: white;
   font-size: 1.92rem;
   line-height: 1.2rem;
-  font-weight: bold;
-}
-.header_main_container .main_nav_container .nav_container .nav_item:hover {
-  border: 1px solid #6c757d;
+  font-weight: 500;
 }
 .header_main_container .main_nav_container .nav_container .nav_item:hover .nav_item_ancla {
-  color: white;
+  color: #6c757d;
 }
 
 @media screen and (max-width: 576px) {
@@ -105,7 +101,7 @@ body {
     cursor: pointer;
   }
   .header_main_container .main_logo_ancla .main_logo {
-    width: 24rem;
+    width: 20rem;
   }
   .header_main_container .main_nav_container .nav_container {
     display: flex;
@@ -163,16 +159,18 @@ body {
 }
 .conocenos_main_container .section-title {
   font-size: 3.8rem;
+  text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center;
-  color: #212529;
+  color: white;
 }
 .conocenos_main_container .mision_historia_container .mision_historia_fila .section-content {
   margin-bottom: 40px;
+  text-align: center;
 }
 .conocenos_main_container .mision_historia_container .mision_historia_fila .section-content h2 {
   font-size: 2.6rem;
-  color: #212529;
+  color: white;
 }
 .conocenos_main_container .mision_historia_container .mision_historia_fila .section-content p,
 .conocenos_main_container .mision_historia_container .mision_historia_fila .section-content ul,
@@ -191,44 +189,31 @@ body {
   font-weight: bold;
 }
 .conocenos_main_container .nuestros_valores_container .valores_items_container {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_img {
   width: 15rem;
 }
 .conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_title {
-  margin-top: 1rem;
+  margin: 2rem 0;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 2.6rem;
+  line-height: 1.2rem;
 }
 .conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_description {
   text-align: center;
-  font-size: 1.44rem;
+  font-size: 1.68rem;
 }
 
-.values-list,
-.process-list {
-  list-style-type: none;
-  padding: 0;
+.servicios_main_container {
+  width: 100%;
+  margin-top: 4rem;
 }
-
-.values-list li,
-.process-list li {
-  margin-bottom: 10px;
-}
-
-.testimonial {
-  font-style: italic;
-  margin-top: 20px;
-}
-
-.contact {
+.servicios_main_container .section_title {
   text-align: center;
-}
-.contact a {
-  text-decoration: none;
-  color: #007BFF;
+  font-size: 3.8rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */

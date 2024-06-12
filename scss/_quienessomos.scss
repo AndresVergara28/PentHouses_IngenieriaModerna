@@ -4,9 +4,10 @@
 
     .section-title {
         font-size: $font-size-title;
+        text-transform: uppercase;
         margin-bottom: 20px;
         text-align: center;
-        color: $color_gray_100;
+        color: $color_white;
     }
 
     .mision_historia_container {
@@ -15,10 +16,11 @@
 
             .section-content {
                 margin-bottom: 40px;
+                text-align: center;
 
                 h2 {
                     font-size: $font-size-subtitle;
-                    color: $color_gray_100;
+                    color: $color_white;
                 }
 
                 p,
@@ -51,7 +53,7 @@
         }
 
         .valores_items_container {
-            margin-top: 2rem;
+            margin-top: 3rem;
             .valores_items_fila {
                 .valores_item_container {
                     .item_img {
@@ -59,15 +61,17 @@
                     }
 
                     .item_title {
-                        margin-top: 1rem;
+                        margin: 2rem 0;
                         text-transform: uppercase;
-                        font-weight: bold;
+                        font-weight: 500;
                         font-size: $font-size-subtitle;
+                        line-height: 1.2rem;
                     }
 
                     .item_description {
+
                         text-align: center;
-                        font-size: $font-size-paragraph*1.2;
+                        font-size: $font-size-paragraph*1.4;
                     }
                 }
 
@@ -86,27 +90,3 @@
 
 
 
-.values-list,
-.process-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.values-list li,
-.process-list li {
-    margin-bottom: 10px;
-}
-
-.testimonial {
-    font-style: italic;
-    margin-top: 20px;
-}
-
-.contact {
-    text-align: center;
-
-    a {
-        text-decoration: none;
-        color: $link-color;
-    }
-}

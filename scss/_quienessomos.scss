@@ -49,11 +49,12 @@
         .nuestros_valores_title {
             font-size: $font-size-title;
             text-transform: uppercase;
-            font-weight: bold ;
+            font-weight: bold;
         }
 
         .valores_items_container {
             margin-top: 3rem;
+
             .valores_items_fila {
                 .valores_item_container {
                     .item_img {
@@ -87,6 +88,51 @@
 }
 
 
+@media screen and (max-width: $small) {
+
+    .conocenos_main_container {
+
+        .section-title {
+            font-size: $font-size-title*0.8;
+        }
 
 
 
+
+        .nuestros_valores_container {
+
+
+            .nuestros_valores_title {
+                font-size: $font-size-title*0.8;
+            }
+
+            .valores_items_container {
+
+                .valores_items_fila {
+                    .valores_item_container {
+                        .item_img {
+                            width: 10rem;
+                        }
+
+                        .item_title {
+
+                            font-size: $font-size-subtitle;
+
+                        }
+
+                        .item_description {
+                            font-size: $font-size-paragraph*1.4;
+                        }
+                    }
+
+
+                }
+
+
+            }
+
+
+        }
+
+    }
+}

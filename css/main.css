@@ -59,16 +59,6 @@ body {
 }
 .header_main_container .menu_icon_container {
   display: none;
-  width: 4rem;
-  height: 4rem;
-  fill: white;
-  cursor: pointer;
-}
-.header_main_container .main_logo_ancla {
-  order: 2;
-}
-.header_main_container .main_logo_ancla .main_logo {
-  width: 20rem;
 }
 .header_main_container .main_nav_container .nav_container {
   display: flex;
@@ -86,10 +76,15 @@ body {
 .header_main_container .main_nav_container .nav_container .nav_item:hover .nav_item_ancla {
   color: #6c757d;
 }
+.header_main_container .main_logo_ancla {
+  order: 2;
+}
+.header_main_container .main_logo_ancla .main_logo {
+  width: 20rem;
+}
 
 @media screen and (max-width: 576px) {
   .header_main_container {
-    width: 100%;
     height: 12vh;
     justify-content: space-between;
   }
@@ -103,7 +98,11 @@ body {
   .header_main_container .main_logo_ancla .main_logo {
     width: 20rem;
   }
+  .header_main_container .main_nav_container {
+    display: none;
+  }
   .header_main_container .main_nav_container .nav_container {
+    display: inl;
     display: flex;
     flex-direction: column;
     background-color: #000;
@@ -130,8 +129,8 @@ body {
     color: white;
   }
 }
-.inactive {
-  display: none;
+.toggle_menu .main_nav_container {
+  display: inline-block;
 }
 
 .carousel {
@@ -145,11 +144,15 @@ body {
 .carousel .carousel-inner .carousel-item {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
 }
 .carousel .carousel-inner .carousel-item img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
+  object-fit: cover;
+}
+.carousel .carousel-inner .carousel-item .img--marketing {
   object-fit: contain;
 }
 
@@ -206,6 +209,23 @@ body {
   font-size: 1.68rem;
 }
 
+@media screen and (max-width: 576px) {
+  .conocenos_main_container .section-title {
+    font-size: 2.56rem;
+  }
+  .conocenos_main_container .nuestros_valores_container .nuestros_valores_title {
+    font-size: 2.56rem;
+  }
+  .conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_img {
+    width: 10rem;
+  }
+  .conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_title {
+    font-size: 2.4rem;
+  }
+  .conocenos_main_container .nuestros_valores_container .valores_items_container .valores_items_fila .valores_item_container .item_description {
+    font-size: 1.68rem;
+  }
+}
 .servicios_main_container {
   width: 100%;
   margin-top: 4rem;
@@ -214,6 +234,28 @@ body {
   text-align: center;
   font-size: 3.2rem;
   font-weight: bold;
+}
+.servicios_main_container .servicios_items_container {
+  margin-top: 2rem;
+}
+.servicios_main_container .servicios_items_container .servicios_item_fila {
+  justify-content: center;
+}
+.servicios_main_container .servicios_items_container .servicios_item_fila .fila_description_container .description_title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.2rem;
+  margin: 2rem 0;
+}
+.servicios_main_container .servicios_items_container .servicios_item_fila .fila_description_container .description_paragraph {
+  font-size: 1.44rem;
+  color: #6c757d;
+  line-height: 1.2;
+}
+.servicios_main_container .servicios_items_container .servicios_item_fila .fila_carousel_container #myCarousel1 {
+  width: 400px;
+  height: 400px;
 }
 
 .whatsApp_icon_container {

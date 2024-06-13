@@ -8,4 +8,43 @@
         font-weight: bold;
     }
 
+    .servicios_items_container {
+        margin-top: 2rem;
+
+        .servicios_item_fila {
+            justify-content: center;
+
+            .fila_description_container {
+                .description_title {
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: $font-size-subtitle;
+                    line-height: 1.2rem;
+                    margin: 2rem 0;
+                }
+
+              
+
+                .description_paragraph {
+                    font-size: $font-size-paragraph*1.2;
+                    color: $color_gray_50;
+                    line-height: 1.2;
+
+                }
+
+            }
+
+            .fila_carousel_container{
+
+                #myCarousel1{
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+
+
+        }
+
+    }
+
 }

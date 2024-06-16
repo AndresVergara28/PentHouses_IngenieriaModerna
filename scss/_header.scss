@@ -5,7 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    border-bottom: 1px solid $color_gray_50;
+    border-bottom: 1px solid $color_gray_100;
     background-color: $color_black;
     display: flex;
     align-items: flex-end;
@@ -35,7 +35,7 @@
                 &:hover {
 
                     .nav_item_ancla {
-                        color: $color_gray_50;
+                        color: $color_gray_100;
 
                     }
                 }

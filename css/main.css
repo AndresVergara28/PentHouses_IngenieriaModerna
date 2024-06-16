@@ -55,7 +55,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 3;
-  border-bottom: 1px solid #6c757d;
+  border-bottom: 1px solid #212529;
   background-color: #000;
   display: flex;
   align-items: flex-end;
@@ -78,7 +78,7 @@ body {
   font-weight: 500;
 }
 .header_main_container .main_nav_container .nav_container .nav_item:hover .nav_item_ancla {
-  color: #6c757d;
+  color: #212529;
 }
 .header_main_container .main_logo_ancla {
   order: 2;
@@ -240,8 +240,9 @@ body {
   color: white;
   font-size: 3.2rem;
   font-weight: bold;
-  line-height: 1.2rem;
-  margin-bottom: 4rem;
+}
+.servicios_main_container .servicios_list_container {
+  margin-top: 4rem;
 }
 .servicios_main_container .servicios_list_container .servicios_list_fila {
   row-gap: 8rem;
@@ -265,7 +266,8 @@ body {
   width: 100%;
   text-align: center;
   font-size: 1.68rem;
-  line-height: 2rem;
+  line-height: 1.96rem;
+  color: #6c757d;
 }
 .servicios_main_container .servicios_list_container .servicios_list_fila .servicio_item_container .servicio_carousel {
   width: 100%;

@@ -323,7 +323,14 @@ body {
 }
 
 .lema_container {
-  background-color: #6c757d;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-image: url("../assets/imgs/engineer.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: right -20px;
 }
 .lema_container h2 {
   color: #000;
